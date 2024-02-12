@@ -17,10 +17,10 @@ const MasterItem: FunctionComponent<{ pokemonName: string, master: string }> = (
     <li className="item">
       <div>
         <div className="image big">
-          <img src={MASTERS[master]} alt="masters picture" />
+          <img src={MASTERS[master]} alt="masters avatar" />
         </div>
         <div className="image small">
-          <img src={`${pokemon ? pokemon.sprites.other.dream_world.front_default : PLACEHOLD_IMG}`} alt="pokemon picture"/>
+          <img src={`${pokemon ? pokemon.sprites.other.dream_world.front_default : PLACEHOLD_IMG}`} alt="pokemon avatar"/>
         </div>
       </div>
       <div>
